@@ -5,9 +5,9 @@ installation.
 
 By default, this configuration will create and provision 3 CentOS 6.3 VMs:
 
-- rabbit1: RabbitMQ disc node
-- rabbit2: RabbitMQ disc node
-- rabbit3: RabbitMQ ram node
+- `rabbit1`: RabbitMQ disc node
+- `rabbit2`: RabbitMQ disc node
+- `rabbit3`: RabbitMQ ram node
 
 And RabbitMQ setting `cluster_partition_handling` is set to `pause_minority`
 (by default), for more information, see [Clustering and Network Partitions](https://www.rabbitmq.com/partitions.html).
