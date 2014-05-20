@@ -1,0 +1,6 @@
+[
+  {rabbit, [
+    {cluster_partition_handling, %{partition_handling_mode}},
+    {cluster_nodes, {[%{nodes}], %{node_type}}}
+  ]}
+].
